@@ -5,6 +5,7 @@ html {
 
     background-color: rgb(207, 207, 207);
     overflow-x:hidden;
+    max-height: 100%;
 }
 
 .body {
@@ -31,6 +32,7 @@ html {
     flex-direction: row;
     position: relative;
     top: 2vh;
+    
 
 }
 
@@ -127,36 +129,36 @@ h3 {
 .works {
 
 position: relative;
-bottom: 150vh;
-margin-left: 5pt;
-opacity: 0.6;
-color: coral;
+bottom: 130vh;
+text-align: center;
 
 
 }
 
 img {
-    max-width: 70%;
-    margin: 1vh;
+    object-fit: cover;
+    width: 50vh;
+    height: 40vh;
 
 }
 
-.Project-1-title{
-    position: relative;
-    bottom: 160vh;
-    margin-left: 5pt;
-    line-height: 1pt;
-    
 
-}
-
-.Project-1-images{
+.Projects{
     position: relative;
     bottom: 125vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.Project-card{
+    height: 40vh;
+    width: 52vh;
+    background-color: blue;
+    margin-bottom: 3vh;
     
 
 }
