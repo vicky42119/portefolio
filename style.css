@@ -23,6 +23,7 @@ html {
     border-bottom: solid;
     border-width: 1pt;
     z-index: 999;
+    height: 30pt;
 }
 
 
@@ -32,6 +33,7 @@ html {
     flex-direction: row;
     position: relative;
     top: 2vh;
+    right: 3vh;
     
 
 }
@@ -63,7 +65,7 @@ a {
 
 }
 
-a:hover  { color: blue;
+a:hover  { color: rgb(68, 68, 255);
 
 }
 
@@ -82,18 +84,19 @@ h1 {
 
 .main-content {
 position: relative;
-bottom: 6em;
-left: 80vh;
-opacity: 0.4;
+bottom: 9em;
+opacity: 0.8;
+left: 3pt;
 color: blueviolet;
+text-align: center;
 
 }
 
 .main-content2 {
     position: relative;
-    bottom: 48em;
-    left: 73vh;
-    opacity: 0.7;
+    bottom: 50em;
+    text-align: center;
+    opacity: 0.4;
     color:blue
 
 }
@@ -129,7 +132,7 @@ h3 {
 .works {
 
 position: relative;
-bottom: 130vh;
+bottom: 125vh;
 text-align: center;
 
 
@@ -157,7 +160,7 @@ img {
 .Project-card{
     height: 40vh;
     width: 52vh;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 3vh;
     
 
