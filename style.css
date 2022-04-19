@@ -132,36 +132,34 @@ h3 {
 .works {
 
 position: relative;
-bottom: 125vh;
+bottom: 130vh;
 text-align: center;
 
 
 }
 
 img {
-    object-fit: cover;
-    width: 50vh;
-    height: 40vh;
+    object-fit: contain;
+    width: 47vh;
+    height: 34vh;
+    justify-content: center;
+    border: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1pt;
+    padding: 10pt;
+    margin: 1vh;
 
 }
 
 
 .Projects{
     position: relative;
-    bottom: 125vh;
+    bottom: 130vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     
 
 }
 
-.Project-card{
-    height: 40vh;
-    width: 52vh;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 3vh;
-    
-
-}
