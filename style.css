@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+
+    background-color: rgb(207, 207, 207);
+    overflow-x:hidden;
+}
+
+.body {
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 2vh;
+    border-bottom: solid;
+    border-width: 1pt;
+    z-index: 999;
+}
+
+
+.nav-bar-center{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    top: 2vh;
+
+}
+
+.nav-bar-right{
+    position: relative;
+    top: 2vh;
+
+}
+
+
+
+h4 {
+    font-family: 'Work Sans', sans-serif;
+
+    font-size: 10pt;
+    font-weight: 800;
+
+}
+
+a {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 10pt;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover  { color: blue;
+
+}
+
+
+
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25em;
+    line-height: 50pt;
+    font-weight: 500;
+
+}
+
+
+
+.main-content {
+position: relative;
+bottom: 6em;
+left: 80vh;
+opacity: 0.4;
+color: blueviolet;
+
+}
+
+.main-content2 {
+    position: relative;
+    bottom: 48em;
+    left: 73vh;
+    opacity: 0.7;
+    color:blue
+
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 500;
+
+}
+
+.introduction {
+    position: relative;
+    bottom: 135vh;
+    max-width: 60vh;
+    margin-left: 5pt;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 350pt;
+    font-weight: 500;
+    line-height: 15pt;
+
+
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40pt;
+    line-height: 15pt;
+    font-weight: 800;
+
+}
+
+.works {
+
+position: relative;
+bottom: 150vh;
+margin-left: 5pt;
+opacity: 0.6;
+color: coral;
+
+
+}
+
+img {
+    max-width: 70%;
+    margin: 1vh;
+
+}
+
+.Project-1-title{
+    position: relative;
+    bottom: 160vh;
+    margin-left: 5pt;
+    line-height: 1pt;
+    
+
+}
+
+.Project-1-images{
+    position: relative;
+    bottom: 125vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
