@@ -74,8 +74,7 @@ a:hover  { color: rgb(255, 247, 133);
 
 h1 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 25em;
-    line-height: 50pt;
+    font-size: 20em;
     font-weight: 500;
 
 }
@@ -84,7 +83,7 @@ h1 {
 
 .main-content {
 position: relative;
-bottom: 10em;
+
 opacity: 0.7;
 left: 1vh;
 color: rgb(0, 255, 221);
@@ -94,7 +93,7 @@ text-align: center;
 
 .main-content2 {
     position: relative;
-    bottom: 51em;
+    bottom: 38em;
     text-align: center;
     opacity: 0.5;
     color:rgb(183, 0, 255);
@@ -102,7 +101,7 @@ text-align: center;
 }
 .main-content3 {
     position: relative;
-    bottom: 93em;
+    bottom: 76em;
     right: 2vh;
     text-align: center;
     opacity: 0.5;
@@ -148,7 +147,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     position: relative;
-    bottom: 212vh;
+    bottom: 180vh;
     border-top: solid;
     border-bottom: solid;
     border-width: 1pt;
@@ -177,7 +176,7 @@ display: none;
 .works {
 
 position: relative;
-bottom: 217vh;
+bottom: 185vh;
 border-bottom: solid;
 border-width: 1px;
 padding-bottom: 3vh;
@@ -203,9 +202,10 @@ h6 {
 
 .project-title{
     position: relative;
-    bottom: 219vh;
+    bottom: 185vh;
     z-index: 999;
     width: 20%;
+   
     
     
     }
@@ -223,11 +223,12 @@ img {
 
 .Projects{
     position: relative;
-    bottom: 263vh;
+    bottom: 230vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: right;
+    float: right;
     
 }
 
