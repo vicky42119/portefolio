@@ -24,7 +24,7 @@ html {
     border-width: 1pt;
     z-index: 999;
     height: 30pt;
-    margin-left: 1vh;
+    min-width: 100%;
 
 }
 
@@ -185,8 +185,8 @@ h3 {
     border-top: solid;
     border-width: 1pt;
     z-index: 999;
-    height: 30pt;
-    margin-left: 1vh;
+    height: 27pt;
+    min-width: 100%;
 }
 
 
@@ -239,7 +239,7 @@ h5 {
 
 h6 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 10pt;
+    font-size: 1vw;
     font-weight: 500;
     color: rgb(41, 41, 41);
 
@@ -304,8 +304,8 @@ h6 {
 
 img {
     object-fit: contain;
-    width: 50vh;
-    height: 50vh;
+    max-width:45%;
+    max-height: 100%;
     background-color: white;
     margin-left: 1vh;
     transition: .2s ease;
