@@ -17,10 +17,9 @@ body {
 
 .nav-bar {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    position: sticky;
+    position: relative;
     border-bottom: solid;
     border-width: 1pt;
     height: 20pt;
@@ -28,34 +27,13 @@ body {
 
 }
 
-
-.nav-bar-center{
-    text-align: center;
-    display: none;
-   
-   
-    
-
-}
-
-.nav-bar-right{
-   
-   
-
-}
-
-.nav-bar-left:hover  { color: rgb(255, 247, 133);
-
-}
-
-
-
-
 h4 {
     font-family: 'Work Sans', sans-serif;
-
     font-size: 10pt;
     font-weight: 800;
+
+    
+
 
 }
 
@@ -65,13 +43,11 @@ a {
     font-weight: 800;
     text-decoration: none;
     color: black;
-
 }
 
 a:hover  { color: rgb(255, 247, 133);
 
 }
-
 
 
 
@@ -107,6 +83,7 @@ h2 {
     font-family: 'Work Sans', sans-serif;
     font-size: 13pt;
     font-weight: 500;
+    line-height: 14pt;
 
 }
 
@@ -213,27 +190,26 @@ h6 {
        
     position: relative;
     top: -2em;
-    max-width: 25%; 
+    max-width: 18em; 
     }
 
 .project-box {
    
     position: relative;
     top: 18em ;
-    height: 79em;
+    min-height: 100%;
     width: 100%;
     border-top-style: solid;
-        border-bottom-style: solid;
-        border-width: 1pt;
+    border-bottom-style: solid;
+    border-width: 1pt;
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    flex: 1 1;
-    justify-content: center;
+    gap: 0px;
+    flex: 1 2;
     margin-bottom: 2vh;
-    margin-left: 1vh;
-    margin-right: 1vh;
     line-height: 0em;
+    padding-top: 3pt;
+    padding-bottom: 3pt;
 
 }
 
@@ -243,7 +219,7 @@ h6 {
    
     position: relative;
     top: -2em;
-    max-width: 25%; 
+    max-width: 18em;  
     }
 
 
@@ -251,20 +227,19 @@ h6 {
    
         position: relative;
         top: 18em ;
-        height: 53em;
+        min-height: 100%;
         width: 100%;
         border-top-style: solid;
         border-bottom-style: solid;
         border-width: 1pt;
         display: flex;
         flex-direction: row;
-        gap: 10px;
+        gap: 0px;
         flex: 1 1;
-        justify-content: center;
         margin-bottom: 2vh;
-        margin-left: 1vh;
-        margin-right: 1vh;
         line-height: 0em;
+        padding-top: 3pt;
+        padding-bottom: 3pt;
     
     }
     
@@ -275,19 +250,16 @@ h6 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 2vh;
     justify-content: right;
-    gap: 1vh;
       
 }
 
 
 img {
     object-fit: contain;
-    max-width:48%;
-   height: 300pt;
-    background-color: white;
-    margin-left: 1vh;
+    max-width:30em;
+   max-height: 100%;
+    margin: 3pt;
     transition: .2s ease;
 
 
