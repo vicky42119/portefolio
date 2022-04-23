@@ -359,12 +359,12 @@ h3 {
 
 .project-box {
     position: relative;
-    top: -11em ;
+    top: -10em ;
 }
 
 .project-box2 {
     position: relative;
-    top: -11em ;
+    top: -10em ;
 }
 
 .Project-images{
@@ -396,8 +396,6 @@ h6 {
     font-weight: 500;
     color: rgb(41, 41, 41);
     line-height: 10pt;
-    
-
 }
 
 
