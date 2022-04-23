@@ -34,6 +34,7 @@ body {
 
 
 
+
 h4 {
     font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
@@ -52,6 +53,7 @@ a {
     color: black;
     position: relative;
     top: 10px;
+    margin-left: 10px;
 }
 
 a:hover  { 
