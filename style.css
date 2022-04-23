@@ -357,69 +357,17 @@ h3 {
     top: -2em ;
 }
 
-}
-
-.project-title{
-       
-    position: relative;
-    top: -3em;
-    max-width: 22em; 
-    }
-
 .project-box {
-   
     position: relative;
     top: -11em ;
-    min-height: 100%;
-    width: 100%;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: 1pt;
-    display: flex;
-    flex-direction: row;
-    gap: 0px;
-    flex: 1 2;
-    margin-bottom: 2vh;
-    line-height: 0em;
-    padding-top: 3pt;
-    padding-bottom: 3pt;
-
 }
 
-
-
-.project-title2{
-   
+.project-box2 {
     position: relative;
-    top: -3em;
-    max-width: 22em; 
-    }
-
-
-    .project-box2 {
-   
-        position: relative;
-        top: -11em ;
-        min-height: 100%;
-        width: 100%;
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-width: 1pt;
-        display: flex;
-        flex-direction: row;
-        gap: 0px;
-        flex: 1 1;
-        margin-bottom: 2vh;
-        line-height: 0em;
-        padding-top: 3pt;
-        padding-bottom: 3pt;
-    
-    }
-    
-
+    top: -11em ;
+}
 
 .Project-images{
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -429,8 +377,8 @@ h3 {
 
 img {
     object-fit: contain;
-    max-width: 100%;
-   max-height: 50%;
+    max-width:15em;
+    max-height: 100%;
     margin: 3pt;
     transition: .2s ease;
 
