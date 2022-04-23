@@ -360,6 +360,7 @@ h3 {
 .project-box {
     position: relative;
     top: -10em ;
+    gap: 20px;
 }
 
 .project-box2 {
