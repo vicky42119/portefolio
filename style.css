@@ -19,11 +19,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
     border-bottom: solid;
     border-width: 1pt;
-    height: 20pt;
+    top: 0px;
+    height: 25pt;
     width: 100%;
+    background-color: rgb(223, 223, 223);
+    z-index: 999;
 
 }
 
@@ -31,10 +34,8 @@ h4 {
     font-family: 'Work Sans', sans-serif;
     font-size: 10pt;
     font-weight: 800;
-
-    
-
-
+    text-decoration: none;
+    color: black;
 }
 
 a {
@@ -43,9 +44,12 @@ a {
     font-weight: 800;
     text-decoration: none;
     color: black;
+    position: relative;
+    top: 10px;
 }
 
-a:hover  { color: rgb(255, 247, 133);
+a:hover  { 
+    color: rgb(255, 247, 133);
 
 }
 
@@ -59,7 +63,7 @@ h1 {
     margin:0;
     line-height: 7pt;
     opacity: 0.5;
-    color: rgb(252, 0, 0);
+    color: rgb(34, 34, 34);
 
 }
 
@@ -67,14 +71,16 @@ h1 {
 
 .title {
     position: relative;
-    top: 8em;
+    top: 9.5em;
+    z-index: 998;
 
 
 }
 
 .title2 {
     position: relative;
-    top: 23em ;
+    top: 24em ;
+    z-index: 998;
 
 
 }
@@ -89,7 +95,7 @@ h2 {
 
 .introduction {
     position: relative;
-    top: 31em;
+    top: 32em;
     font-family: 'Work Sans', sans-serif;
     text-align: left;
     margin-left: 2vh;
@@ -111,12 +117,15 @@ h3 {
 }
 
 .square {
-    height: 540px;
+    position: relative;
+    top: -7em;
+    height: 560px;
     width: 810px;
     background-color: rgb(72, 0, 240);
-    opacity: 0.5;
-   display: none;
     left: 40%;
+    opacity: 0.5;
+
+
 
 }
 
@@ -131,7 +140,7 @@ h3 {
     height: 27pt;
     min-width: 100%;
     position: relative;
-    top: 32em;
+    top: -3em;
     margin-top: 1vh;
 }
 
@@ -163,7 +172,7 @@ h3 {
 
 .Works {
     position: relative;
-    top: 29em ;
+    top: -6em ;
 }
 
 h5 {
@@ -189,14 +198,14 @@ h6 {
 .project-title{
        
     position: relative;
-    top: -2em;
-    max-width: 18em; 
+    top: -3em;
+    max-width: 22em; 
     }
 
 .project-box {
    
     position: relative;
-    top: 18em ;
+    top: -17em ;
     min-height: 100%;
     width: 100%;
     border-top-style: solid;
@@ -218,15 +227,15 @@ h6 {
 .project-title2{
    
     position: relative;
-    top: -2em;
-    max-width: 18em;  
+    top: -3em;
+    max-width: 22em; 
     }
 
 
     .project-box2 {
    
         position: relative;
-        top: 18em ;
+        top: -17em ;
         min-height: 100%;
         width: 100%;
         border-top-style: solid;
