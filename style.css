@@ -163,9 +163,9 @@ h5 {
     font-weight: 800;
     line-height: 25pt;
     color: rgb(41, 41, 41);
-    
 
 }
+
 
 h6 {
     font-family: 'Work Sans', sans-serif;
@@ -174,7 +174,6 @@ h6 {
     color: rgb(41, 41, 41);
     line-height: 12pt;
     
-
 }
 
 .project-title{
@@ -358,6 +357,19 @@ h3 {
     top: -2em ;
 }
 
+.project-title {
+    position: relative;
+    top: -4vh;
+    line-height: 0em;
+
+}
+
+.project-title2 {
+    position: relative;
+    top: -4vh;
+
+}
+
 .project-box {
     position: relative;
     top: -10em ;
@@ -399,7 +411,19 @@ h6 {
     font-weight: 500;
     color: rgb(41, 41, 41);
     line-height: 10pt;
+    position: relative;
+    top: -6vh;
 }
+
+h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 800;
+    line-height: 22pt;
+    color: rgb(41, 41, 41);
+
+}
+
 
 
     /* Your CSS rules for your mobile phones here */
