@@ -4,17 +4,15 @@
 
 
 html {
-
-    background-color: rgb(207, 207, 207);
-    overflow-x:hidden;
-    overflow-y: auto;
-    max-height: 100%;
+    height: 100vh;
+    background-color: rgb(223, 223, 223);
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
-
-.body {
-    overflow-x:hidden;
-    overflow-x:hidden;
-    overflow-y: auto;
+body {
+    overflow-x: hidden;
+    min-height: 100vh;
+    max-width: 100%
 }
 
 .nav-bar {
@@ -22,37 +20,31 @@ html {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     border-bottom: solid;
     border-width: 1pt;
-    z-index: 999;
-    height: 30pt;
-    min-width: 100%;
+    height: 20pt;
+    width: 100%;
 
 }
 
 
 .nav-bar-center{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;
-    top: 2vh;
-    right: 3vh;
+    text-align: center;
+    display: none;
+   
+   
     
 
 }
 
 .nav-bar-right{
-    position: relative;
-    top: 2vh;
+   
+   
 
 }
 
-.nav-bar-left{
-    position: relative;
-    margin: 1vh;
-    bottom: 1vh;
+.nav-bar-left:hover  { color: rgb(255, 247, 133);
 
 }
 
@@ -69,8 +61,6 @@ h4 {
 
 a {
     font-family: 'Work Sans', sans-serif;
-    margin-left: 6px;
-    margin-right: 6px;
     font-size: 10pt;
     font-weight: 800;
     text-decoration: none;
@@ -87,65 +77,47 @@ a:hover  { color: rgb(255, 247, 133);
 
 h1 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 20em;
+    font-size: 22em;
     font-weight: 700;
-
-}
-
-
-
-.main-content {
-position: fixed;
-opacity: 0.5;
-left: 1vh;
-color: rgb(0, 0, 0);
-text-align: left;
-z-index: 999;
-
-}
-
-.main-content2 {
-    position: fixed;
-    text-align: left;
+    padding: 0;
+    margin:0;
+    line-height: 7pt;
     opacity: 0.5;
-    color:rgb(0, 0, 0);
-    z-index: 999;
-
-}
-.main-content3 {
-    position: fixed;
-    text-align: left;
-    opacity: 0.5;
-    color:rgb(0, 0, 0);
-    z-index: 999;
+    color: rgb(252, 0, 0);
 
 }
 
-.main-content4 {
-    position: fixed;
-    left: 1vh;
-    text-align: left;
-    opacity: 0.5;
-    color:rgb(0, 0, 0);
-    z-index: 999;
+
+
+.title {
+    position: relative;
+    top: 8em;
+
+
+}
+
+.title2 {
+    position: relative;
+    top: 23em ;
+
 
 }
 
 h2 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 12pt;
+    font-size: 13pt;
     font-weight: 500;
 
 }
 
 .introduction {
-    position: fixed;
-    bottom: 10vh;
+    position: relative;
+    top: 31em;
     font-family: 'Work Sans', sans-serif;
-    max-width: 60vh;
-    justify-content: right;
-    z-index: 999;
+    text-align: left;
     margin-left: 2vh;
+    max-width: 30em;
+
 
 
 
@@ -166,9 +138,8 @@ h3 {
     width: 810px;
     background-color: rgb(72, 0, 240);
     opacity: 0.5;
-    position: fixed;
+   display: none;
     left: 40%;
-    z-index: 1;
 
 }
 
@@ -177,14 +148,14 @@ h3 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    position: fixed;
-    bottom: 3vh;
     border-bottom: solid;
     border-top: solid;
     border-width: 1pt;
-    z-index: 999;
     height: 27pt;
     min-width: 100%;
+    position: relative;
+    top: 32em;
+    margin-top: 1vh;
 }
 
 
@@ -200,7 +171,7 @@ h3 {
 
 .footer-bar-right{
     position: relative;
-    top: 1vh;
+    top: -1vh;
     
 
 }
@@ -214,11 +185,8 @@ h3 {
 
 
 .Works {
-
-position: fixed;
-top: 30em;
-left: 2vh;
-
+    position: relative;
+    top: 29em ;
 }
 
 h5 {
@@ -233,53 +201,73 @@ h5 {
 
 h6 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1vw;
+    font-size: 10pt;
     font-weight: 500;
     color: rgb(41, 41, 41);
+    line-height: 12pt;
+    
 
 }
+
+.project-title{
+       
+    position: relative;
+    top: -2em;
+    max-width: 25%; 
+    }
 
 .project-box {
-
-    position: fixed;
-    top: 100em;
-    height: 106vh;
+   
+    position: relative;
+    top: 18em ;
+    height: 79em;
     width: 100%;
-    background-color: rgb(175, 175, 175);
+    border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1pt;
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    flex: 1 1;
-    justify-content: center;
-    margin-bottom: 2vh;
-    margin-left: 1vh;
-    margin-right: 2vh;
-
-}
-
-.project-box2 {
-    position: fixed;
-    height: 158vh;
-    width: 100%;
-   background-color: rgb(175, 175, 175);
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+    gap: 10px;
     flex: 1 1;
     justify-content: center;
     margin-bottom: 2vh;
     margin-left: 1vh;
     margin-right: 1vh;
+    line-height: 0em;
 
 }
 
-.project-title{
+
+
+.project-title2{
    
     position: relative;
-    left: 2vh; 
-    max-width: 35%; 
+    top: -2em;
+    max-width: 25%; 
     }
 
+
+    .project-box2 {
+   
+        position: relative;
+        top: 18em ;
+        height: 53em;
+        width: 100%;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1pt;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex: 1 1;
+        justify-content: center;
+        margin-bottom: 2vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        line-height: 0em;
+    
+    }
+    
 
 
 .Project-images{
@@ -296,19 +284,20 @@ h6 {
 
 img {
     object-fit: contain;
-    max-width:45%;
-    max-height: 45%;
+    max-width:48%;
+   height: 300pt;
     background-color: white;
     margin-left: 1vh;
     transition: .2s ease;
-    border-width: 0.5px;
-    border-style: solid;
-    border-color: rgb(41, 41, 41);
-    padding: 2px;
+
 
  
 }
 
 img:hover {
     transform: scale(1.2);
+}
+
+@media all and (max-device-width: 480px) {
+    /* Your CSS rules for your mobile phones here */
 }
