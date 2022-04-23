@@ -263,8 +263,7 @@ img:hover {
     transform: scale(1.2);
 }
 
-@media all and 
-(min-device-width: 375px) and (max-device-height: 896px){
+@media screen and (max-device-width: 640px){
 
     .nav-bar {
         display: flex;
