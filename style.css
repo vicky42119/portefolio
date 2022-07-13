@@ -6,7 +6,7 @@
 html {
     
     height: 100vh;
-    background-color: rgb(223, 223, 223);
+    background: rgb(198,198,198);
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -134,6 +134,15 @@ height: 2em;
    top: 42em;
 }
 
+.footer2 {
+    border-top-style: solid;
+height: 2em;
+   border-bottom-style: solid;
+   position: relative;
+   top: 28em;
+
+}
+
 .Works {
     position: relative;
     top: 39em ;
@@ -141,36 +150,60 @@ height: 2em;
 }
 
 
-.all_projects {
+.row {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     top: 29em;
-    display: flex;
-    flex-direction: row;
-    gap: 5vh;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 45%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .2s ease-in-out;
+  }
 
-.project{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.project_image {
-    width: 40vw;
-    height: 45vh;
-    box-shadow: 10px 10px 10px grey;
-}
-
-.project_image:hover {
-    transform: scale(1.05);
+  h5 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 200;
+    position: relative;
+    color:rgb(49, 49, 49);
+    padding: 0pt;
+    margin-bottom: 1pt;
+    margin-top: 1pt;
     
 }
 
-.project_name {
-
+.column img:hover {
+    transform: scale(1.03);
 }
+ 
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
 
 @media screen and (max-device-width: 640px){
 } 
