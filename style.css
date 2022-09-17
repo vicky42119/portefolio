@@ -61,6 +61,8 @@ html {
     height: 60px;
     margin: 0;
     padding: 0;
+    z-index: 0;
+  
   }
   
   .nav-container .checkbox {
@@ -111,7 +113,8 @@ html {
   }
   
   .navbar .menu-items {
-    z-index: -1;
+    position: relative;
+    z-index: 1;
     padding-top: 120px;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     height: 100vh;
@@ -133,7 +136,7 @@ html {
   
   .logo {
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 15px;
     font-size: 1.2rem;
     color: #0e2431;
@@ -169,18 +172,28 @@ h2 {
 
 .title {
     position: relative;
-    top: 6em;
+    top: -25em;
     left: 29vw;
 
 }
 
 .Intro{
     position: relative;
-   top: 5em;
-   width: 30vw;
+   top: -25em;
+   width: 30em;
    left: 40vw;
 
 }
+
+.box1{
+  border-style: solid;
+  border-width: 1px;
+  height: 30em;
+  width: 100%;
+  border-color: rgb(173, 173, 173);
+  100%);
+}
+
 
 * {
   box-sizing: border-box
@@ -188,8 +201,9 @@ h2 {
 
 .works {
 position: relative;
-  top: 10em;
+  top: -14em;
   justify-content: center;
+  
 }
 
 body {
@@ -201,7 +215,6 @@ body {
 }
 img {
   vertical-align: middle;
-  
   width: 70vh;
 }
 /* Slideshow container */
@@ -209,6 +222,10 @@ img {
   max-width: 70vh;
   position: relative;
   margin:0 auto 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(187, 187, 187);
+  z-index: 999;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -280,8 +297,10 @@ to {
   background-color: #717171;
 }
 .image {
+  position: relative;
   height:50px;
   width: 70vh;
+  z-index: -1;
   
 }
 .img1 {
